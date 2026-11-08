@@ -4,6 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/Gradiente-Financiera-Addie/',  // ← AGREGAR ESTA LÍNEA
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
